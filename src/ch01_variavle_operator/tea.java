@@ -17,5 +17,6 @@ public class tea {
         System.out.println("무게 : " + gram +'g');
         System.out.println("가격 : "+ cost + "원");
         System.out.println("등급 : " + rating);
+
     }
 }
