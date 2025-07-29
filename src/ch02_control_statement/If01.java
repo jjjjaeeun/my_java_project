@@ -14,11 +14,9 @@ public class If01 {
             // 조건식이 참(true)이면 수행될 영역
 
         }else{
-
             System.out.println("숫자 " + su + "은(는) 홀수입니다.");
             // 조건식이 거짓(false)이면 수행될 영역
         }
-
         System.out.println("ㅋㅋㅋ"); // if 해당 없이 수행
 
         }
