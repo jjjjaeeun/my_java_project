@@ -11,7 +11,6 @@ public class ShapeArea {
         return ap;
     }
 
-
     int area(int a, int b) {
         int ab = 0;
         ab = a * b;
