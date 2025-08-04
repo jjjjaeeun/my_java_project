@@ -4,7 +4,6 @@ public class ShapeArea {
 
     double PI = 3.141592;
 
-
     double area(int a) {
         double ap = 0;
         ap = a * a * PI;
