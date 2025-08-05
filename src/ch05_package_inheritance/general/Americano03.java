@@ -11,7 +11,7 @@ public class Americano03 extends Beverage03{
     public void printInfo() {
         super.showInfo(); //부모 클래스 메서드 호출 구문
         System.out.println("투입된 물의 양: "+this.waterAmount);
-        System.out.println();
+       // System.out.println();
     }
 
 }
