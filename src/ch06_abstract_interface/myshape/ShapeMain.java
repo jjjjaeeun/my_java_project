@@ -1,5 +1,7 @@
 package ch06_abstract_interface.myshape;
 
+import ch06_abstract_interface.Triangle;
+
 public class ShapeMain {
     public static void main(String[] args) {
 

@@ -1,4 +1,6 @@
-package ch06_abstract_interface.myshape;
+package ch06_abstract_interface;
+
+import ch06_abstract_interface.myshape.Shape;
 
 public class Triangle extends Shape {
 

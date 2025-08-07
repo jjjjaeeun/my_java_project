@@ -1,7 +1,5 @@
 package ch06_abstract_interface.myshape;
 
-import java.awt.desktop.AboutEvent;
-
 public class Rectangle extends Shape {
 
     private double width; // 너비

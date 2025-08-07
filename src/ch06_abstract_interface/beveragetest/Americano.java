@@ -1,4 +1,4 @@
-package ch06_abstract_interface.myshape.beveragetest;
+package ch06_abstract_interface.beveragetest;
 
 public class Americano extends Beverage {
     private double water;

@@ -1,4 +1,4 @@
-package ch06_abstract_interface.myshape.beveragetest;
+package ch06_abstract_interface.beveragetest;
 
 public class BeverageMain {
     public static void main(String[] args) {
