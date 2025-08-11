@@ -31,6 +31,7 @@ public class MemberMain {
         }
 
         System.out.println("\n특정 아이디를 이용하여 특정 회원 정보를 조회합니다.");
+
         String findId = "kim";
         Member one = dao.getOne(findId);
 

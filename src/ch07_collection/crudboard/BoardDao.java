@@ -48,10 +48,12 @@ public class BoardDao {
         Board findData = null; //반환 데이터 정보
 
         for (Board bean : boardList) {
-            if (bean.getNo() == findId);{
+            if (bean.getNo() == findId){
                 // 해당 게시물 발견됨
                 findData = bean;
                 break;//이하 다른 게시물은 볼 필요 없음
+            }else {
+
             }
 
         }
