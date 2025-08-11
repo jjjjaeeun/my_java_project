@@ -16,6 +16,7 @@ public class BoardMain {
         //Generic(제너릭) 특정 데이터만 한정시켜 컬렉션에 저장하기 위한 기법 사용
 
         BoardDao dao = new BoardDao();
+
         dao.insertData(data01);
         dao.insertData(data02);
         dao.insertData(data03);
@@ -33,11 +34,11 @@ public class BoardMain {
         for (Board bean : boardList) {
             int no = bean.getNo();
             String title = bean.getTitle();
-            String wtiter = bean.getWtiter();
+            String writer = bean.getwriter();
             String regdate = bean.getRegdate();
             int readcount = bean.getReadcount();
 
-            String message = no + "\t" + title + "\t" + wtiter + "\t" + regdate + "\t" + readcount;
+            String message = no + "\t" + title + "\t" + writer + "\t" + regdate + "\t" + readcount;
             System.out.println(message);
         }
 
@@ -54,11 +55,11 @@ public class BoardMain {
 
             int no = bean.getNo();
             String title = bean.getTitle();
-            String wtiter = bean.getWtiter();
+            String writer = bean.getwriter();
             String regdate = bean.getRegdate();
             int readcount = bean.getReadcount();
 
-            String message = no + "\t" + title + "\t" + wtiter + "\t" + regdate + "\t" + readcount;
+            String message = no + "\t" + title + "\t" + writer + "\t" + regdate + "\t" + readcount;
             System.out.println(message);
         }
         System.out.println("\n게시물 번호를 이용하여 특정 게시물을 삭제합니다.");

@@ -7,7 +7,7 @@ import javax.swing.*;
 public class Board {
     private int no; // 글번호
     private String title; // 제목
-    private String wtiter; // 작성자
+    private String writer; // 작성자
     private String regdate; // 작성 일자
     private int readcount; // 조회수
 
@@ -16,10 +16,10 @@ public class Board {
     public Board() {
     }
 
-    public Board(int no, String title, String wtiter, String regdate, int readcount) {
+    public Board(int no, String title, String writer, String regdate, int readcount) {
         this.no = no;
         this.title = title;
-        this.wtiter = wtiter;
+        this.writer = writer;
         this.regdate = regdate;
         this.readcount = readcount;
     }
@@ -29,7 +29,7 @@ public class Board {
         return "Board{" +
                 "no=" + no +
                 ", title='" + title + '\'' +
-                ", wtiter='" + wtiter + '\'' +
+                ", writer='" + writer + '\'' +
                 ", regdate='" + regdate + '\'' +
                 ", readcount=" + readcount +
                 '}';
@@ -51,12 +51,12 @@ public class Board {
         this.title = title;
     }
 
-    public String getWtiter() {
-        return wtiter;
+    public String getwriter() {
+        return writer;
     }
 
-    public void setWtiter(String wtiter) {
-        this.wtiter = wtiter;
+    public void setwriter(String writer) {
+        this.writer = writer;
     }
 
     public String getRegdate() {
